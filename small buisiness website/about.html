@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" comtent="width = device-width, initial-scalr =1.0">
+        <title> Homemade clothes website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class = "subheader">
+            <nav>
+                <div class = "nav-links" id=" navLinks"> 
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li> <a href="index.html">HOME</a></li>
+                        <li> <a href="product.html">PRODUCTS</a></li>
+                        <li> <a href="about.html">ABOUT US</a></li>
+                        <li> <a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+    
+            <h1> ABOUT US</h1>
+            
+             
+        </section>
+
+        <section class=" about-us">
+            <div class="about-col">
+                <h1> We provide all types of clothes as per customers demand</h1>
+                
+                <p> Our Vision is to change the way our society connects with the fashion industry by providing our customers with products that are ethically and responsibly sourced.</p>
+                <a href="product.html" class="hero-btn red-btn"> EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about1.png" >
+                
+            </div>
+
+
+        </section>
+
+        
+                          
+                       
+       
+        <section class="footer">
+            <h4> ABOUT US</h4>
+            
+            <p>  Our Mission is to make a difference through our branding by staying ahead of the fashion trends, defining style and giving customers what they want</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+               
+            </div>
+            <p> </p>
+        </section>
+
+
+
+
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks")
+            function showmenu(){
+                navLinks.style.right = "0";
+            }
+            function hidemenu(){
+                navLinks.style.right = "-200px";
+            }
+            
+
+        </script>
+
+
+    </body>
+</html>
